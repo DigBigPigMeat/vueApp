@@ -1,8 +1,8 @@
 <template>
   <tab-bar>
     <tab-bar-item link="/home">
-      <img slot="item_icon" src="../../../assets/img/tabbar/home.svg" alt="">
-      <img slot="item_icon_active" src="../../../assets/img/tabbar/home_active.svg" alt="">
+      <img slot="item_icon" src="~assets/img/tabbar/home.svg" alt="">
+      <img slot="item_icon_active" src="~assets/img/tabbar/home_active.svg" alt="">
       <div slot="item_text">Home</div>
     </tab-bar-item>
     <tab-bar-item link="/sort">
@@ -11,13 +11,13 @@
       <div slot="item_text">Sort</div>
     </tab-bar-item>
     <tab-bar-item link="/cart">
-      <img slot="item_icon" src="../../../assets/img/tabbar/shopcart.svg" alt="">
-      <img slot="item_icon_active" src="../../../assets/img/tabbar/shopcart_active.svg" alt="">
+      <img slot="item_icon" src="~assets/img/tabbar/shopcart.svg" alt="">
+      <img slot="item_icon_active" src="~assets/img/tabbar/shopcart_active.svg" alt="">
       <div slot="item_text">Cart</div>
     </tab-bar-item>
     <tab-bar-item link="/profile">
-      <img slot="item_icon" src="../../../assets/img/tabbar/profile.svg" alt="">
-      <img slot="item_icon_active" src="../../../assets/img/tabbar/profile_active.svg" alt="">
+      <img slot="item_icon" src="~assets/img/tabbar/profile.svg" alt="">
+      <img slot="item_icon_active" src="~assets/img/tabbar/profile_active.svg" alt="">
       <div slot="item_text">Profile</div>
     </tab-bar-item>
   </tab-bar>
